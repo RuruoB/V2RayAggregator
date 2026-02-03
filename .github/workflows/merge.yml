@@ -59,5 +59,4 @@ jobs:
         run: |
           gh gist edit ${{ secrets.GIST_LINK }} -f clash.yaml ./sub/sub_merge_yaml.yml
           gh gist edit ${{ secrets.GIST_LINK }} -f v2ray.txt ./sub/sub_merge_base64.txt
-          gh gist edit ${{ secrets.GIST_LINK }} -f proxies.yaml ./sub/sub_merge_yaml_proxies.yml
           gh gist edit ${{ secrets.GIST_LINK }} -f subscribes.txt ./sub/sub_merge.txt
